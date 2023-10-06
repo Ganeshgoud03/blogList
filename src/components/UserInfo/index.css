@@ -1,1 +1,22 @@
-/* Write your CSS code here */
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.profile-img {
+  width: 50%;
+  height: 50%;
+}
+
+.profile-head {
+  color: #12022f;
+  font-size: 25px;
+}
+
+.profile-para {
+  color: #616e7c;
+  font-size: 18px;
+}

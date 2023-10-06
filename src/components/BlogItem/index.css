@@ -1,1 +1,50 @@
-/* Write your CSS code here */
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: 1px solid #9aa5b1;
+  font-family: Roboto;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title-head {
+  color: #12022f;
+  font-size: 22px;
+}
+
+.title-para {
+  color: #9aa5b1;
+  font-size: 20px;
+}
+
+.description-para {
+  color: #9aa5b1;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .list-item {
+    margin-left: -11%;
+  }
+  .title-head {
+    color: #12022f;
+    font-size: 21px;
+  }
+
+  .title-para {
+    color: #9aa5b1;
+    font-size: 19px;
+  }
+
+  .description-para {
+    color: #9aa5b1;
+    font-size: 19px;
+  }
+}

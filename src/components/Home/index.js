@@ -1,5 +1,6 @@
 import './index.css'
 import BlogList from '../BlogList'
+import UserInfo from '../UserInfo'
 
 const blogsList = [
   {
@@ -35,6 +36,11 @@ const blogsList = [
     publishedDate: 'Nov 10th',
   },
 ]
-const Home = () => <BlogList blogsList={blogsList} />
+const Home = () => (
+  <div className="home-container">
+    <UserInfo />
+    <BlogList blogsList={blogsList} />
+  </div>
+)
 
 export default Home
